@@ -318,12 +318,10 @@ form input[type="submit"]:hover {
 * SALES PAGE
 ========================================**/
 
-
 .sales article .curso-online {
   margin: 55px 0 0;
   padding: 0;
 
-  font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 16px;
   color: #222222;
@@ -354,7 +352,7 @@ form input[type="submit"]:hover {
 .sales .instructor p {
   font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
 
   margin-top: 55px;
@@ -364,20 +362,22 @@ form input[type="submit"]:hover {
 .sales .instructor-description {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  
+  height: auto;
+  padding-bottom: 60px;
 
-  margin-top: 45px;
 }
 
 .sales .instructor-description img {
-  height: 280px;
-  width: 280px;
+  /* height: 300px; */
+  width: 398px;
   border-radius: 1%;
+
 }
 
 .sales .instructor-description p {
   width: 700px;
-  margin-left: 80px;
   line-height: 1.8;
   font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
@@ -385,11 +385,25 @@ form input[type="submit"]:hover {
 
   font-weight: 400;
   text-transform: none;
+
+
 }
 
 .background-color {
   background-color: #1E626F;
 }
+
+
+.informations-course {
+  background-color: #1E626F;
+
+}
+
+.content-course {
+  background-color: #f7f5f5;
+}
+
+
 
 
 
